@@ -1,4 +1,4 @@
 #!/bin/bash
-echo "#!/bin/bash" > ./0x02-shell_redirections/$1
-echo "$2" > ./0x02-shell_redirections/$1
+echo "#!/bin/bash" >> ./0x02-shell_redirections/$1
+echo "$2" >> ./0x02-shell_redirections/$1
 chmod u+x ./0x02-shell_redirections/$1
